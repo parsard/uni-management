@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uni_management/startPage.dart';
+import 'package:uni_management/StartPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,8 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: startPage(),
+      debugShowCheckedModeBanner: false,
+      
     );
   }
 }
