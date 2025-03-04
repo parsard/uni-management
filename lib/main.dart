@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uni_management/startPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,18 +17,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        body: SafeArea(
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text("hi")
-            ],
-          ),
-        ),
-        ),
-      ),
+      home: startPage(),
     );
   }
 }
